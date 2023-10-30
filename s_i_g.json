@@ -1,0 +1,106 @@
+{
+    "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+    "runs": [
+        {
+            "tool": {
+                "driver": {
+                    "name": "Black Duck Intelligent",
+                    "organization": "Synopsys",
+                    "rules": [
+                        {
+                            "id": "Newtonsoft.Json 11.0.2: ",
+                            "shortDescription": {
+                                "text": "Direct Dependency: Newtonsoft.Json 11.0.2"
+                            },
+                            "fullDescription": {
+                                "text": "- [:yellow_circle:] [BDSA-2018-5195](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-5195)\n"
+                            },
+                            "help": {
+                                "markdown": "\n## Upgrade Guidance\n\n\n\n| **Affected Dependency**  | **Recommended short term version** | **Recommended long term version** |\n| :--- | :--- | :--- |\n| Newtonsoft.Json 11.0.2  | Not available  | 13.0.3 |\n\n\n\n[Click Here To See More Details in Black Duck](https://us03-qa-hub11.nprd.sig.synopsys.com/api/projects/17df5254-40cc-48bc-9cfa-d6b9e9a198ed/versions/2d890b91-0a65-4632-8d58-01b53dbd83ef/vulnerability-bom?selectedComponent=5379c4b3-9a9b-4dd1-9517-249de6d5a5c4)\n\n## Vulnerabilities(BDSA,CVE)\n- :yellow_circle: [BDSA-2018-5195](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-5195) - Newtonsoft.Json Vulnerable to Denial-of-Service (DoS) via Stack Overflow During Nested JSON Serialization\n\n\n\n\n\n\n## References\n* Common Weakness Enumeration: [CWE-770](https://cwe.mitre.org/data/definitions/770.html)\n\n",
+                                "text": "- [:yellow_circle:] [BDSA-2018-5195](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-5195)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-770",
+                                    "patch_available"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        }
+                    ]
+                }
+            },
+            "results": [
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "dvcsharp-core-api.csproj"
+                                },
+                                "region": {
+                                    "startLine": 16
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Newtonsoft.Json 11.0.2: ",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "c5dc52c262d02709a16181c0272fb360b4eff93e1993d4a64781efea25c5f28a"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": ".bridge/Blackduck Execution/detect/runs/2023-10-30-08-07-57-444/relevant/FILE-0-dvcsharp-core-api.csproj"
+                                },
+                                "region": {
+                                    "startLine": 16
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Newtonsoft.Json 11.0.2: ",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "c164008457984a9b14c3e7ea9275dd5d32692e134bd4df514323efa796230d59"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": ".bridge/Blackduck Execution/detect/runs/2023-10-30-07-59-46-142/relevant/FILE-0-dvcsharp-core-api.csproj"
+                                },
+                                "region": {
+                                    "startLine": 16
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Newtonsoft.Json 11.0.2: ",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "a0a60825f6b41e26648c5d83f34fd4d69eb9ae73c00e8ba7c61ecf9f352edf8d"
+                    }
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
