@@ -56,48 +56,6 @@
                     "partialFingerprints": {
                         "primaryLocationLineHash": "5ee7c051bf46a5fe49efd5d13b74b30c7d7a8fd635f00905ff22c46146ac9084"
                     }
-                },
-                {
-                    "message": {
-                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": ".bridge/Blackduck Execution/detect/runs/2023-10-30-08-07-57-444/relevant/FILE-0-dvcsharp-core-api.csproj"
-                                },
-                                "region": {
-                                    "startLine": 16
-                                }
-                            }
-                        }
-                    ],
-                    "ruleId": "Newtonsoft.Json 11.0.2",
-                    "partialFingerprints": {
-                        "primaryLocationLineHash": "336fb2cd1fba0b9ac81995dc8e16d32255f3ab982234112d1df8ae60bada3385"
-                    }
-                },
-                {
-                    "message": {
-                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": ".bridge/Blackduck Execution/detect/runs/2023-10-30-07-59-46-142/relevant/FILE-0-dvcsharp-core-api.csproj"
-                                },
-                                "region": {
-                                    "startLine": 16
-                                }
-                            }
-                        }
-                    ],
-                    "ruleId": "Newtonsoft.Json 11.0.2",
-                    "partialFingerprints": {
-                        "primaryLocationLineHash": "a4a6442388bbd1e0173a3167a4a268595fceae369e345c600cf3e8e8340e1bdf"
-                    }
                 }
             ]
         }
